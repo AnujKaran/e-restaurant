@@ -12,7 +12,7 @@ app.use(express.static("public"));
 // https://restaurant-e-commerce-server.vercel.app/webhook
 const PORT = process.env.PORT || 8080;
 
-const YOUR_DOMAIN = "http://localhost:3000/"
+const YOUR_DOMAIN = "https://e-restaurant-client.vercel.app/"
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
