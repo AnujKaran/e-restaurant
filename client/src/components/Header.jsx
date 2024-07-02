@@ -255,12 +255,7 @@ const Header = () => {
                   <NavLink to={"/menu"} onClick={()=>setIsLogin(false)}  className="text-base  whitespace-nowrap flex hover:bg-red-50 hover:text-slate-600 py-2 rounded hover:font-semibold px-3 items-center w-full gap-3 ">
                     Menu
                   </NavLink>
-                  <NavLink to={"about"} onClick={()=>setIsLogin(false)} className="text-base  whitespace-nowrap flex hover:bg-red-50 hover:text-slate-600 py-2 rounded hover:font-semibold px-3 items-center w-full gap-3 ">
-                    About Us
-                  </NavLink>
-                  <NavLink to={"service"} onClick={()=>setIsLogin(false)} className="text-base  whitespace-nowrap flex hover:bg-red-50 hover:text-slate-600 py-2 rounded hover:font-semibold px-3 items-center w-full gap-3 ">
-                    Service
-                  </NavLink>
+                 
                 </ul>
               </div>
               <div className="rounded overflow-hidden">
